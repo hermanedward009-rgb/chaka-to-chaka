@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="BEHIND THE SCENES">
+      <rect width="1200" height="800" fill="#101010"/>
+      <g opacity="0.25" stroke="#f4f1ea" stroke-width="1">
+        <path d="M0 0 H1200"/><path d="M0 70 H1200"/><path d="M0 140 H1200"/><path d="M0 210 H1200"/><path d="M0 280 H1200"/><path d="M0 350 H1200"/><path d="M0 420 H1200"/><path d="M0 490 H1200"/><path d="M0 560 H1200"/><path d="M0 630 H1200"/><path d="M0 700 H1200"/><path d="M0 770 H1200"/>
+      </g>
+      <path d="M 140 560 H 1060 V 700 H 140 Z" fill="none" stroke="#3ec6ff" stroke-width="16" stroke-linejoin="round"/>
+      <circle cx="860" cy="250" r="78" fill="#070707" stroke="#f4f1ea" stroke-width="8"/>
+      <path d="M782 250h156M860 172c24 24 24 132 0 156M860 172c-24 24-24 132 0 156" fill="none" stroke="#3ec6ff" stroke-width="6"/>
+      <text x="70" y="730" font-family="Arial Black, Arial, sans-serif" font-size="54" fill="#f4f1ea">BEHIND THE SCENES</text>
+    </svg>

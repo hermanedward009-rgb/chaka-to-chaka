@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Player portrait 12">
+      <rect width="800" height="1000" fill="#101010"/>
+      <text x="400" y="620" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="420" fill="#ffffff" opacity="0.06">12</text>
+      <circle cx="400" cy="330" r="140" fill="#f4f1ea"/>
+      <path d="M180 980c40-230 120-330 220-330h0c100 0 180 100 220 330" fill="#242424"/>
+      <text x="400" y="355" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="92" fill="#070707">MA</text>
+      <rect x="0" y="900" width="800" height="100" fill="#3ec6ff"/>
+      <text x="60" y="965" font-family="Arial Black, Arial, sans-serif" font-size="54" fill="#070707">#12</text>
+    </svg>

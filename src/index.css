@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-display: "Barlow Condensed", "Arial Narrow", Impact, sans-serif;
+  --font-sans: "Outfit", "Segoe UI", sans-serif;
+  --color-ink: var(--ink);
+  --color-court: var(--court);
+  --color-card: var(--card);
+  --color-flare: var(--flare);
+  --color-sand: var(--sand);
+  --color-mist: var(--mist);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-line: var(--line);
+  --color-surface: var(--surface);
+  --color-on-flare: var(--on-flare);
+  --shadow-glow: var(--glow-shadow);
+}
+
+:root,
+[data-theme="dark"] {
+  --ink: #050814;
+  --court: #0a1224;
+  --card: #101b33;
+  --flare: #3ec6ff;
+  --sand: #e8f3ff;
+  --mist: #8eabc8;
+  --muted: #9bb4d0;
+  --faint: #6d86a3;
+  --line: rgba(120, 190, 255, 0.22);
+  --surface: rgba(5, 12, 28, 0.62);
+  --on-flare: #041018;
+  --glow-shadow: 0 0 22px rgba(62, 198, 255, 0.55);
+  color-scheme: dark;
+}
+
+[data-theme="light"] {
+  --ink: #f3f7ff;
+  --court: #ffffff;
+  --card: #ffffff;
+  --flare: #0078f0;
+  --sand: #0c1730;
+  --mist: #4c6484;
+  --muted: #3e5674;
+  --faint: #6a819c;
+  --line: rgba(12, 40, 90, 0.14);
+  --surface: rgba(255, 255, 255, 0.82);
+  --on-flare: #ffffff;
+  --glow-shadow: 0 0 22px rgba(0, 120, 240, 0.35);
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--ink);
+  color: var(--sand);
+  font-family: var(--font-sans);
+  overflow-x: clip;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+button,
+[type="button"],
+[type="submit"],
+[type="reset"] {
+  cursor: pointer;
+}
+
+input,
+select,
+textarea {
+  color-scheme: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--flare);
+  outline-offset: 3px;
+}
+
+img,
+video,
+iframe {
+  max-width: 100%;
+}
+
+.bg-flare {
+  box-shadow: var(--glow-shadow);
+}
+
+.court-grid {
+  background-image:
+    radial-gradient(ellipse at top, color-mix(in srgb, var(--flare) 24%, transparent), transparent 58%),
+    linear-gradient(color-mix(in srgb, var(--flare) 20%, transparent) 1px, transparent 1px),
+    linear-gradient(90deg, color-mix(in srgb, var(--sand) 10%, transparent) 1px, transparent 1px);
+  background-size: auto, 56px 56px, 56px 56px;
+}
+
+.rise {
+  animation: rise 0.6s ease both;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .rise,
+  .animate-pulse {
+    animation: none !important;
+  }
+}

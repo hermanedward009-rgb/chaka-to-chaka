@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Chaka to Chaka on court">
+    <rect width="1600" height="1000" fill="#101010"/>
+    <g opacity="0.35" stroke="#f4f1ea" fill="none" stroke-width="2">
+      <path d="M180 860 L520 430 L1080 430 L1420 860"/>
+      <path d="M520 430 H1080"/>
+      <path d="M700 430 L760 860 M900 430 L840 860"/>
+      <path d="M800 250 V430"/>
+    </g>
+    <circle cx="1040" cy="360" r="150" fill="#070707" stroke="#3ec6ff" stroke-width="14"/>
+    <path d="M890 360h300M1040 210c48 48 48 204 0 300M1040 210c-48 48-48 204 0 300" fill="none" stroke="#f4f1ea" stroke-width="10"/>
+    <text x="90" y="760" font-family="Arial Black, Arial, sans-serif" font-size="92" fill="#f4f1ea">CHAKA</text>
+    <text x="90" y="850" font-family="Arial Black, Arial, sans-serif" font-size="92" fill="#3ec6ff">TO CHAKA</text>
+  </svg>
